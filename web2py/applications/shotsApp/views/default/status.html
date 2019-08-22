@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+               {{response.files.append(URL('static', '/css/status.css'))}}
+    {{include './web2py_ajax.html'}}
+
+         <link rel = "stylesheet"
+   type = "text/css"
+   href = "../../static/css/status.css" />
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shots App</title>
+</head>
+<body >
+<div class="container">
+<div class="shotList">
+    {{=shotList}}
+
+</div>
+<div class="formSection">
+{{=message}}
+</div>
+</div>
+<script>
+    document.getElementById('shotsTable_modified').disabled = 'True';
+
+
+</script>
+</body>
+</html>

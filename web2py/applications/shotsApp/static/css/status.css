@@ -1,0 +1,60 @@
+.shotList {
+    width: 30%;
+float:left;
+}
+.shotList a {
+    /*color: #ececec;*/
+    text-decoration: none;
+}
+
+.shot-list-item {
+    padding-left: 10px;
+}
+
+.formSection{
+    width: 70%;
+float:right;
+    color: #ececec;
+}
+.formSection div {
+    padding: 2px;
+}
+
+/*.formSection form {*/
+
+/*}*/
+
+.formSection input {
+    background-color: #4F4F4F;
+    border: 0px;
+    color: #ececec;
+}
+
+.formSection select {
+    background-color: #4F4F4F;
+    border: 0px;
+    color: #ececec;
+}
+
+.formSection textarea {
+    background-color: #4F4F4F;
+    border: 0px;
+    color: #ececec;
+}
+
+#shotsTable_active input{
+    background-color: #4F4F4F;
+}
+
+fieldset {
+    border: 0px;
+}
+
+.container {
+  width: 100%;
+  z-index: -1;
+  overflow-x: hidden;
+        background-color: #2E2E2E;
+
+}
+

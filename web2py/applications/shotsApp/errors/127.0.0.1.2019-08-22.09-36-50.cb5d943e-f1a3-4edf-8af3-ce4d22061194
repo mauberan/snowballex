@@ -1,0 +1,1269 @@
+(dp1
+S'output'
+p2
+S'<class \'gluon.contrib.pymysql.err.ProgrammingError\'> (1146, u"Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist")'
+p3
+sS'layer'
+p4
+S'/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp/controllers/shots.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x107b85b30, file "/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp/controllers/shots.py", line 4>'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'gluon.contrib.pymysql.err'"
+p13
+sS'__getslice__'
+p14
+S"<method-wrapper '__getslice__' of ProgrammingError object>"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of ProgrammingError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of ProgrammingError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of ProgrammingError object>'
+p23
+sS'__weakref__'
+p24
+S'None'
+p25
+sS'message'
+p26
+S"''"
+p27
+sS'__init__'
+p28
+S"<method-wrapper '__init__' of ProgrammingError object>"
+p29
+sS'__setattr__'
+p30
+S"<method-wrapper '__setattr__' of ProgrammingError object>"
+p31
+sS'__reduce_ex__'
+p32
+S'<built-in method __reduce_ex__ of ProgrammingError object>'
+p33
+sS'__new__'
+p34
+S'<built-in method __new__ of type object>'
+p35
+sS'__format__'
+p36
+S'<built-in method __format__ of ProgrammingError object>'
+p37
+sS'__class__'
+p38
+S"<class 'gluon.contrib.pymysql.err.ProgrammingError'>"
+p39
+sS'__doc__'
+p40
+S"'Exception raised for programming errors, e.g. ta...t, wrong number\\n    of parameters specified, etc.'"
+p41
+sS'__getitem__'
+p42
+S"<method-wrapper '__getitem__' of ProgrammingError object>"
+p43
+sS'__setstate__'
+p44
+S'<built-in method __setstate__ of ProgrammingError object>'
+p45
+sS'__getattribute__'
+p46
+S"<method-wrapper '__getattribute__' of ProgrammingError object>"
+p47
+sS'args'
+p48
+S'(1146, u"Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist")'
+p49
+sS'__subclasshook__'
+p50
+S'<built-in method __subclasshook__ of type object>'
+p51
+sS'__unicode__'
+p52
+S'<built-in method __unicode__ of ProgrammingError object>'
+p53
+sS'__delattr__'
+p54
+S"<method-wrapper '__delattr__' of ProgrammingError object>"
+p55
+sS'__repr__'
+p56
+S"<method-wrapper '__repr__' of ProgrammingError object>"
+p57
+sS'__hash__'
+p58
+S"<method-wrapper '__hash__' of ProgrammingError object>"
+p59
+ssS'evalue'
+p60
+S'(1146, u"Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist")'
+p61
+sS'request'
+p62
+cgluon.html
+XML_unpickle
+p63
+(S'sgX\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>shotsapp</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>shots</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-0a55f5a4-4482-4a18-9d29-404c63e1428d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.9,he;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>no-cache</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>_ga=GA1.1.944207612.1545615973; session_id_admin=127.0.0.1-0a55f5a4-4482-4a18-9d29-404c63e1428d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>localhost:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_PRAGMA</td><td style="vertical-align:top;">:</td><td><div>no-cache</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_MODE</td><td style="vertical-align:top;">:</td><td><div>navigate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_SITE</td><td style="vertical-align:top;">:</td><td><div>none</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_USER</td><td style="vertical-align:top;">:</td><td><div>?1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/shotsapp/shots/status</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>49863</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>MacBook-Pro.local</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp&#x27;, &#x27;/Users/Ran/PycharmProjects/untitled/web2py/applications/admin&#x27;, &#x27;/Users/Ran/PycharmProjects/untitled/web2py/applications/welcome&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/Ran/PycharmProjects/untitled/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x102624830: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;MacBook-Pro.local&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/Ran/PycharmProjects/untitled/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/Ran/PycharmProjects/untitled/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.9,he;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>no-cache</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>_ga=GA1.1.944207612.1545615973; session_id_admin=127.0.0.1-0a55f5a4-4482-4a18-9d29-404c63e1428d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>localhost:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_pragma</td><td style="vertical-align:top;">:</td><td><div>no-cache</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_mode</td><td style="vertical-align:top;">:</td><td><div>navigate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_site</td><td style="vertical-align:top;">:</td><td><div>none</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_user</td><td style="vertical-align:top;">:</td><td><div>?1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>MacBook-Pro.local</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/shotsapp/shots/status</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>49863</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/shotsapp/shots/status</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>MacBook-Pro.local</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/Users/Ran/PycharmProjects/untitled/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.18.5-stable+timestamp.2019.04.08.04.22.03</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x10046d1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x1015bdce8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x107a4a0d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x10046d1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x1015bdce8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x107a4a0d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>status</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp&#x27;, &#x27;/Users/Ran/PycharmProjects/untitled/web2py/applications/admin&#x27;, &#x27;/Users/Ran/PycharmProjects/untitled/web2py/applications/welcome&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/Ran/PycharmProjects/untitled/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x102624830: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;MacBook-Pro.local&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/Ran/PycharmProjects/untitled/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/Ran/PycharmProjects/untitled/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>MacBook-Pro.local</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.18.5-stable+timestamp.2019.04.08.04.22.03</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 8, 22, 9, 36, 50, 297637)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/shotsapp/shots/status</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 8, 22, 6, 36, 50, 297645)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x107b88910&gt;</div></td></tr></table></div>'
+tRp64
+sS'frames'
+p65
+(lp66
+(dp67
+S'file'
+p68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/restricted.py'
+p69
+sS'dump'
+p70
+(dp71
+S'environment'
+p72
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p73
+sS'ccode'
+p74
+S'<code object <module> at 0x107b85b30, file "/Use...lications/shotsapp/controllers/shots.py", line 4>'
+p75
+ssS'lnum'
+p76
+I219
+sS'lines'
+p77
+(dp78
+I214
+S'    if environment is None:'
+p79
+sI215
+S'        environment = {}'
+p80
+sI216
+S"    environment['__file__'] = layer"
+p81
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p82
+sI218
+S'    try:'
+p83
+sI219
+S'        exec(ccode, environment)'
+p84
+sI220
+S'    except HTTP:'
+p85
+sI221
+S'        raise'
+p86
+sI222
+S'    except RestrictedError:'
+p87
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p88
+ssS'call'
+p89
+S'(ccode=<code object <module> at 0x107b85b30, file "/Use...lications/shotsapp/controllers/shots.py", line 4>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'pydal.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'AppConfig\': <function AppConfig>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, ...}, layer=\'/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp/controllers/shots.py\', scode=<code object <module> at 0x107b85b30, file "/Use...lications/shotsapp/controllers/shots.py", line 4>)'
+p90
+sS'func'
+p91
+S'restricted'
+p92
+sa(dp93
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp/controllers/shots.py'
+p94
+sg70
+(dp95
+sg76
+I80
+sg77
+(dp96
+I69
+S'                                          description=request.post_vars.description)'
+p97
+sI70
+S'            redirect(currPath)'
+p98
+sI71
+S''
+sI72
+S''
+sI73
+S"    form['_style'] = ''"
+p99
+sI74
+S"    for input in form.elements('input', _class='string'):"
+p100
+sI75
+S"        input['_class'] = ''"
+p101
+sI76
+S''
+sI77
+S"    response.view = '../views/default/status.html'"
+p102
+sI78
+S'    return dict(message=form, shotList=XML(shotlist))'
+p103
+ssg89
+S'()'
+p104
+sg91
+S'<module>'
+p105
+sa(dp106
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/globals.py'
+p107
+sg70
+(dp108
+S'self'
+p109
+S'undefined'
+p110
+sS'f'
+S'<function status>'
+p111
+ssg76
+I421
+sg77
+(dp112
+I416
+S"        self.flash = ''            # used by the default view layout"
+p113
+sI417
+S'        self.meta = Storage()      # used by web2py_ajax.html'
+p114
+sI418
+S'        self.menu = []             # used by the default view layout'
+p115
+sI419
+S'        self.files = []            # used by web2py_ajax.html'
+p116
+sI420
+S'        self._vars = None'
+p117
+sI421
+S'        self._caller = lambda f: f()'
+p118
+sI422
+S'        self._view_environment = None'
+p119
+sI423
+S'        self._custom_commit = None'
+p120
+sI424
+S'        self._custom_rollback = None'
+p121
+sI425
+S"        self.generic_patterns = ['*']"
+p122
+ssg89
+S'(f=<function status>)'
+p123
+sg91
+S'<lambda>'
+p124
+sa(dp125
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp/controllers/shots.py'
+p126
+sg70
+(dp127
+S'db.define_table'
+p128
+S'<bound method DAL.define_table of <DAL uri="mysq...west-1.rds.amazonaws.com:3306/binjo6x0bhaoabnu">>'
+p129
+sS'builtintype'
+p130
+S"<type 'type'>"
+p131
+sS'global Field'
+p132
+S"<class 'pydal.objects.Field'>"
+p133
+sS'length'
+p134
+g110
+sS'global db'
+p135
+S'<DAL uri="mysql://******@w1kr9ijlozl9l79i.chr7pe...-west-1.rds.amazonaws.com:3306/binjo6x0bhaoabnu">'
+p136
+sS'unique'
+p137
+g110
+ssg76
+I11
+sg77
+(dp138
+I6
+S"db = DAL('mysql://o51wuugoaddp2s62:dl1vy2ps42znltfd@w1kr9ijlozl9l79i.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/binjo6x0bhaoabnu')"
+p139
+sI7
+S'currPath = URL(args=request.args, vars=request.get_vars, host=True)'
+p140
+sI8
+S''
+sI9
+S''
+sI10
+S'def status():'
+p141
+sI11
+S'    db.define_table(\'statuses\', Field(\'name\', type="string", unique="True", length=255), Field(\'colorHex\', type="string", unique=\'True\'))'
+p142
+sI12
+S"    # db.statuses.validate_and_insert(name='Not Started', colorHex='#03eac1')"
+p143
+sI13
+S"    # db.statuses.validate_and_insert(name='WIP', colorHex='#ffb607')"
+p144
+sI14
+S"    # db.statuses.validate_and_insert(name='Need Fixing', colorHex='#ea03d4')"
+p145
+sI15
+S"    # db.statuses.validate_and_insert(name='Failed QA', colorHex='#ff2700')"
+p146
+ssg89
+S'()'
+p147
+sg91
+S'status'
+p148
+sa(dp149
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/base.py'
+p150
+sg70
+(dp151
+S'fields'
+p152
+S'(<pydal.objects.Field object>, <pydal.objects.Field object>)'
+p153
+sS'self'
+p154
+S'<DAL uri="mysql://******@w1kr9ijlozl9l79i.chr7pe...-west-1.rds.amazonaws.com:3306/binjo6x0bhaoabnu">'
+p155
+sS'tablename'
+p156
+S"'statuses'"
+p157
+sS'kwargs'
+p158
+g21
+sS'table'
+p159
+g110
+sS'self.lazy_define_table'
+p160
+S'<bound method DAL.lazy_define_table of <DAL uri=...west-1.rds.amazonaws.com:3306/binjo6x0bhaoabnu">>'
+p161
+ssg76
+I592
+sg77
+(dp162
+I587
+S'        if self._lazy_tables:'
+p163
+sI588
+S'            if tablename not in self._LAZY_TABLES or redefine:'
+p164
+sI589
+S'                self._LAZY_TABLES[tablename] = (tablename, fields, kwargs)'
+p165
+sI590
+S'            table = None'
+p166
+sI591
+S'        else:'
+p167
+sI592
+S'            table = self.lazy_define_table(tablename, *fields, **kwargs)'
+p168
+sI593
+S'        if tablename not in self.tables:'
+p169
+sI594
+S'            self.tables.append(tablename)'
+p170
+sI595
+S'        return table'
+p171
+sI596
+S''
+ssg89
+S'(self=<DAL uri="mysql://******@w1kr9ijlozl9l79i.chr7pe...-west-1.rds.amazonaws.com:3306/binjo6x0bhaoabnu">, tablename=\'statuses\', *fields=(<pydal.objects.Field object>, <pydal.objects.Field object>), **kwargs={})'
+p172
+sg91
+S'define_table'
+p173
+sa(dp174
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/base.py'
+p175
+sg70
+(dp176
+S'polymodel'
+p177
+S'None'
+p178
+ssg76
+I626
+sg77
+(dp179
+I621
+S'            try:'
+p180
+sI622
+S'                GLOBAL_LOCKER.acquire()'
+p181
+sI623
+S'                self._adapter.create_table('
+p182
+sI624
+S'                    table, migrate=migrate,'
+p183
+sI625
+S'                    fake_migrate=fake_migrate,'
+p184
+sI626
+S'                    polymodel=polymodel)'
+p185
+sI627
+S'            finally:'
+p186
+sI628
+S'                GLOBAL_LOCKER.release()'
+p187
+sI629
+S'        else:'
+p188
+sI630
+S'            table._dbt = None'
+p189
+ssg89
+S'(self=<DAL uri="mysql://******@w1kr9ijlozl9l79i.chr7pe...-west-1.rds.amazonaws.com:3306/binjo6x0bhaoabnu">, tablename=\'statuses\', *fields=(<pydal.objects.Field object>, <pydal.objects.Field object>), **kwargs={})'
+p190
+sg91
+S'lazy_define_table'
+p191
+sa(dp192
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p193
+sg70
+(dp194
+S'self'
+p195
+S'<pydal.adapters.mysql.MySQL object>'
+p196
+sS'args'
+p197
+S'(<Table statuses (id, name, colorHex)>,)'
+p198
+sS'self.migrator'
+p199
+S'<pydal.migrator.Migrator object>'
+p200
+sS'self.migrator.create_table'
+p201
+S'<bound method Migrator.create_table of <pydal.migrator.Migrator object>>'
+p202
+sS'kwargs'
+p203
+S"{'fake_migrate': False, 'migrate': True, 'polymodel': None}"
+p204
+ssg76
+I798
+sg77
+(dp205
+I800
+S'    def _drop_table_cleanup(self, table):'
+p206
+sI801
+S'        super(SQLAdapter, self)._drop_table_cleanup(table)'
+p207
+sI802
+S'        if table._dbt:'
+p208
+sI793
+S''
+sI794
+S'    def bulk_insert(self, table, items):'
+p209
+sI795
+S'        return [self.insert(table, item) for item in items]'
+p210
+sI796
+S''
+sI797
+S'    def create_table(self, *args, **kwargs):'
+p211
+sI798
+S'        return self.migrator.create_table(*args, **kwargs)'
+p212
+sI799
+S''
+ssg89
+S"(self=<pydal.adapters.mysql.MySQL object>, *args=(<Table statuses (id, name, colorHex)>,), **kwargs={'fake_migrate': False, 'migrate': True, 'polymodel': None})"
+p213
+sg91
+S'create_table'
+p214
+sa(dp215
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/migrator.py'
+p216
+sg70
+(dp217
+S'fake_migrate'
+p218
+S'False'
+p219
+ssg76
+I318
+sg77
+(dp220
+I320
+S'        return query'
+p221
+sI321
+S''
+sI322
+S'    def _fix(self, item):'
+p222
+sI313
+S'            if sql_fields != sql_fields_old:'
+p223
+sI314
+S'                self.migrate_table('
+p224
+sI315
+S'                    table,'
+p225
+sI316
+S'                    sql_fields, sql_fields_old,'
+p226
+sI317
+S'                    sql_fields_aux, None,'
+p227
+sI318
+S'                    fake_migrate=fake_migrate'
+p228
+sI319
+S'                    )'
+p229
+ssg89
+S'(self=<pydal.migrator.Migrator object>, table=<Table statuses (id, name, colorHex)>, migrate=True, fake_migrate=False, polymodel=None)'
+p230
+sg91
+g214
+sa(dp231
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/migrator.py'
+p232
+sg70
+(dp233
+S'self'
+p234
+S'<pydal.migrator.Migrator object>'
+p235
+sS'self.adapter.execute'
+p236
+S'<bound method MySQL.wrap of <pydal.adapters.mysql.MySQL object>>'
+p237
+sS'self.adapter'
+p238
+S'<pydal.adapters.mysql.MySQL object>'
+p239
+sS'sub_query'
+p240
+S"'ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;'"
+p241
+ssg76
+I451
+sg77
+(dp242
+I448
+S'                            self.save_dbt(table, sql_fields_current)'
+p243
+sI449
+S"                        self.log('faked!\\n', table)"
+p244
+sI450
+S'                    else:'
+p245
+sI451
+S'                        self.adapter.execute(sub_query)'
+p246
+sI452
+S'                        # Caveat: mysql, oracle and firebird'
+p247
+sI453
+S'                        # do not allow multiple alter table'
+p248
+sI454
+S'                        # in one transaction so we must commit'
+p249
+sI455
+S'                        # partial transactions and'
+p250
+sI446
+S'                    if fake_migrate:'
+p251
+sI447
+S'                        if db._adapter.commit_on_alter_table:'
+p252
+ssg89
+S"(self=<pydal.migrator.Migrator object>, table=<Table statuses (id, name, colorHex)>, sql_fields={'colorhex': {'length': 512, 'notnull': False, 'raw_rname': 'colorHex', 'rname': '`colorHex`', 'sortable': 3, 'sql': 'VARCHAR(512) UNIQUE', 'type': 'string', 'unique': 'True'}, 'id': {'length': 512, 'notnull': False, 'raw_rname': 'id', 'rname': '`id`', 'sortable': 1, 'sql': 'INT AUTO_INCREMENT NOT NULL', 'type': 'id', 'unique': False}, 'name': {'length': 255, 'notnull': False, 'raw_rname': 'name', 'rname': '`name`', 'sortable': 2, 'sql': 'VARCHAR(255) UNIQUE', 'type': 'string', 'unique': 'True'}}, sql_fields_old={'colorhex': {'length': 512, 'notnull': False, 'raw_rname': 'colorHex', 'rname': '`colorHex`', 'sortable': 3, 'sql': 'VARCHAR(512) UNIQUE', 'type': 'string', 'unique': 'True'}, 'id': {'length': 512, 'notnull': False, 'raw_rname': 'id', 'rname': '`id`', 'sortable': 1, 'sql': 'INT AUTO_INCREMENT NOT NULL', 'type': 'id', 'unique': False}, 'name': {'length': 512, 'notnull': False, 'raw_rname': 'name', 'rname': '`name`', 'sortable': 2, 'sql': 'VARCHAR(512) UNIQUE', 'type': 'string', 'unique': 'True'}}, sql_fields_aux={'colorhex': {'sql': 'VARCHAR(512) UNIQUE'}, 'id': {'sql': 'INT AUTO_INCREMENT NOT NULL'}, 'name': {'sql': 'VARCHAR(255) UNIQUE'}}, logfile=None, fake_migrate=False)"
+p253
+sg91
+S'migrate_table'
+p254
+sa(dp255
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/adapters/__init__.py'
+p256
+sg70
+(dp257
+S'kwargs'
+p258
+g21
+sS'args'
+p259
+S"(<pydal.adapters.mysql.MySQL object>, 'ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;')"
+p260
+sS'f'
+S'<function execute>'
+p261
+ssg76
+I67
+sg77
+(dp262
+I64
+S'            if len(args) > 1:'
+p263
+sI65
+S'                raise ValueError(args[1])'
+p264
+sI66
+S"            raise RuntimeError('no connection available')"
+p265
+sI67
+S'        return f(*args, **kwargs)'
+p266
+sI68
+S'    return wrap'
+p267
+sI69
+S''
+sI70
+S''
+sI71
+S'from .base import SQLAdapter, NoSQLAdapter'
+p268
+sI62
+S'    def wrap(*args, **kwargs):'
+p269
+sI63
+S'        if not args[0].connection:'
+p270
+ssg89
+S"(*args=(<pydal.adapters.mysql.MySQL object>, 'ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;'), **kwargs={})"
+p271
+sg91
+S'wrap'
+p272
+sa(dp273
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p274
+sg70
+(dp275
+S'rv'
+p276
+g110
+sS'self'
+p277
+S'<pydal.adapters.mysql.MySQL object>'
+p278
+sS'args'
+p279
+S"('ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;',)"
+p280
+sS'self.cursor'
+p281
+S'<gluon.contrib.pymysql.cursors.Cursor object>'
+p282
+sS'command'
+p283
+S"'ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;'"
+p284
+sS'self.cursor.execute'
+p285
+S'<bound method Cursor.execute of <gluon.contrib.pymysql.cursors.Cursor object>>'
+p286
+sS'kwargs'
+p287
+g21
+ssg76
+I413
+sg77
+(dp288
+I416
+S'        return rv'
+p289
+sI417
+S''
+sI408
+S'    def execute(self, *args, **kwargs):'
+p290
+sI409
+S'        command = self.filter_sql_command(args[0])'
+p291
+sI410
+S'        handlers = self._build_handlers_for_execution()'
+p292
+sI411
+S'        for handler in handlers:'
+p293
+sI412
+S'            handler.before_execute(command)'
+p294
+sI413
+S'        rv = self.cursor.execute(command, *args[1:], **kwargs)'
+p295
+sI414
+S'        for handler in handlers:'
+p296
+sI415
+S'            handler.after_execute(command)'
+p297
+ssg89
+S"(self=<pydal.adapters.mysql.MySQL object>, *args=('ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;',), **kwargs={})"
+p298
+sg91
+S'execute'
+p299
+sa(dp300
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/cursors.py'
+p301
+sg70
+(dp302
+S'query'
+p303
+S"'ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;'"
+p304
+sS'self'
+p305
+S'<gluon.contrib.pymysql.cursors.Cursor object>'
+p306
+sS'result'
+p307
+g110
+sS'self._query'
+p308
+S'<bound method Cursor._query of <gluon.contrib.pymysql.cursors.Cursor object>>'
+p309
+ssg76
+I166
+sg77
+(dp310
+I161
+S'        while self.nextset():'
+p311
+sI162
+S'            pass'
+p312
+sI163
+S''
+sI164
+S'        query = self.mogrify(query, args)'
+p313
+sI165
+S''
+sI166
+S'        result = self._query(query)'
+p314
+sI167
+S'        self._executed = query'
+p315
+sI168
+S'        return result'
+p316
+sI169
+S''
+sI170
+S'    def executemany(self, query, args):'
+p317
+ssg89
+S"(self=<gluon.contrib.pymysql.cursors.Cursor object>, query='ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;', args=None)"
+p318
+sg91
+g299
+sa(dp319
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/cursors.py'
+p320
+sg70
+(dp321
+S'q'
+S"'ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;'"
+p322
+sS'conn.query'
+p323
+S'<bound method Connection.query of <gluon.contrib.pymysql.connections.Connection object>>'
+p324
+sS'conn'
+p325
+S'<gluon.contrib.pymysql.connections.Connection object>'
+p326
+ssg76
+I322
+sg77
+(dp327
+I320
+S'        conn = self._get_db()'
+p328
+sI321
+S'        self._last_executed = q'
+p329
+sI322
+S'        conn.query(q)'
+p330
+sI323
+S'        self._do_get_result()'
+p331
+sI324
+S'        return self.rowcount'
+p332
+sI325
+S''
+sI326
+S'    def _do_get_result(self):'
+p333
+sI317
+S'        self.rownumber = r'
+p334
+sI318
+S''
+sI319
+S'    def _query(self, q):'
+p335
+ssg89
+S"(self=<gluon.contrib.pymysql.cursors.Cursor object>, q='ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;')"
+p336
+sg91
+S'_query'
+p337
+sa(dp338
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py'
+p339
+sg70
+(dp340
+S'self._read_query_result'
+p341
+S'<bound method Connection._read_query_result of <...n.contrib.pymysql.connections.Connection object>>'
+p342
+sS'self'
+p343
+S'<gluon.contrib.pymysql.connections.Connection object>'
+p344
+sS'unbuffered'
+p345
+g219
+sS'self._affected_rows'
+p346
+S'0'
+ssg76
+I835
+sg77
+(dp347
+I832
+S'            else:'
+p348
+sI833
+S"                sql = sql.encode(self.encoding, 'surrogateescape')"
+p349
+sI834
+S'        self._execute_command(COMMAND.COM_QUERY, sql)'
+p350
+sI835
+S'        self._affected_rows = self._read_query_result(unbuffered=unbuffered)'
+p351
+sI836
+S'        return self._affected_rows'
+p352
+sI837
+S''
+sI838
+S'    def next_result(self, unbuffered=False):'
+p353
+sI839
+S'        self._affected_rows = self._read_query_result(unbuffered=unbuffered)'
+p354
+sI830
+S'            if PY2:'
+p355
+sI831
+S'                sql = sql.encode(self.encoding)'
+p356
+ssg89
+S"(self=<gluon.contrib.pymysql.connections.Connection object>, sql='ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;', unbuffered=False)"
+p357
+sg91
+S'query'
+p358
+sa(dp359
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py'
+p360
+sg70
+(dp361
+S'result.read'
+p362
+S'<bound method MySQLResult.read of <gluon.contrib.pymysql.connections.MySQLResult object>>'
+p363
+sS'result'
+p364
+S'<gluon.contrib.pymysql.connections.MySQLResult object>'
+p365
+ssg76
+I1019
+sg77
+(dp366
+I1014
+S'                result.unbuffered_active = False'
+p367
+sI1015
+S'                result.connection = None'
+p368
+sI1016
+S'                raise'
+p369
+sI1017
+S'        else:'
+p370
+sI1018
+S'            result = MySQLResult(self)'
+p371
+sI1019
+S'            result.read()'
+p372
+sI1020
+S'        self._result = result'
+p373
+sI1021
+S'        if result.server_status is not None:'
+p374
+sI1022
+S'            self.server_status = result.server_status'
+p375
+sI1023
+S'        return result.affected_rows'
+p376
+ssg89
+S'(self=<gluon.contrib.pymysql.connections.Connection object>, unbuffered=False)'
+p377
+sg91
+S'_read_query_result'
+p378
+sa(dp379
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py'
+p380
+sg70
+(dp381
+S'first_packet'
+p382
+g110
+sS'self'
+p383
+S'<gluon.contrib.pymysql.connections.MySQLResult object>'
+p384
+sS'self.connection'
+p385
+S'None'
+p386
+sS'self.connection._read_packet'
+p387
+g110
+ssg76
+I1302
+sg77
+(dp388
+I1297
+S'        if self.unbuffered_active:'
+p389
+sI1298
+S'            self._finish_unbuffered_query()'
+p390
+sI1299
+S''
+sI1300
+S'    def read(self):'
+p391
+sI1301
+S'        try:'
+p392
+sI1302
+S'            first_packet = self.connection._read_packet()'
+p393
+sI1303
+S''
+sI1304
+S'            if first_packet.is_ok_packet():'
+p394
+sI1305
+S'                self._read_ok_packet(first_packet)'
+p395
+sI1306
+S'            elif first_packet.is_load_local_packet():'
+p396
+ssg89
+S'(self=<gluon.contrib.pymysql.connections.MySQLResult object>)'
+p397
+sg91
+S'read'
+p398
+sa(dp399
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py'
+p400
+sg70
+(dp401
+S'packet'
+p402
+S'<gluon.contrib.pymysql.connections.MysqlPacket object>'
+p403
+sS'packet.check_error'
+p404
+S'<bound method MysqlPacket.check_error of <gluon.contrib.pymysql.connections.MysqlPacket object>>'
+p405
+ssg76
+I981
+sg77
+(dp406
+I976
+S'                continue'
+p407
+sI977
+S'            if bytes_to_read < MAX_PACKET_LEN:'
+p408
+sI978
+S'                break'
+p409
+sI979
+S''
+sI980
+S'        packet = packet_type(buff, self.encoding)'
+p410
+sI981
+S'        packet.check_error()'
+p411
+sI982
+S'        return packet'
+p412
+sI983
+S''
+sI984
+S'    def _read_bytes(self, num_bytes):'
+p413
+sI985
+S'        self._sock.settimeout(self._read_timeout)'
+p414
+ssg89
+S"(self=<gluon.contrib.pymysql.connections.Connection object>, packet_type=<class 'gluon.contrib.pymysql.connections.MysqlPacket'>)"
+p415
+sg91
+S'_read_packet'
+p416
+sa(dp417
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py'
+p418
+sg70
+(dp419
+S'self._data'
+p420
+S'"\\xffz\\x04#42S02Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist"'
+p421
+sS'self'
+p422
+S'<gluon.contrib.pymysql.connections.MysqlPacket object>'
+p423
+sS'global err'
+p424
+S"<module 'gluon.contrib.pymysql.err' from '/Users...s/untitled/web2py/gluon/contrib/pymysql/err.pyc'>"
+p425
+sS'err.raise_mysql_exception'
+p426
+S'<function raise_mysql_exception>'
+p427
+ssg76
+I393
+sg77
+(dp428
+I388
+S'        if self.is_error_packet():'
+p429
+sI389
+S'            self.rewind()'
+p430
+sI390
+S'            self.advance(1)  # field_count == error (we already know that)'
+p431
+sI391
+S'            errno = self.read_uint16()'
+p432
+sI392
+S'            if DEBUG: print("errno =", errno)'
+p433
+sI393
+S'            err.raise_mysql_exception(self._data)'
+p434
+sI394
+S''
+sI395
+S'    def dump(self):'
+p435
+sI396
+S'        dump_packet(self._data)'
+p436
+sI397
+S''
+ssg89
+S'(self=<gluon.contrib.pymysql.connections.MysqlPacket object>)'
+p437
+sg91
+S'check_error'
+p438
+sa(dp439
+g68
+S'/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/err.py'
+p440
+sg70
+(dp441
+S'errorclass'
+p442
+S"<class 'gluon.contrib.pymysql.err.ProgrammingError'>"
+p443
+sS'errno'
+p444
+S'1146'
+p445
+sS'errval'
+p446
+S'u"Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist"'
+p447
+ssg76
+I107
+sg77
+(dp448
+I98
+S'def raise_mysql_exception(data):'
+p449
+sI99
+S"    errno = struct.unpack('<h', data[1:3])[0]"
+p450
+sI100
+S'    is_41 = data[3:4] == b"#"'
+p451
+sI101
+S'    if is_41:'
+p452
+sI102
+S'        # client protocol 4.1'
+p453
+sI103
+S"        errval = data[9:].decode('utf-8', 'replace')"
+p454
+sI104
+S'    else:'
+p455
+sI105
+S"        errval = data[3:].decode('utf-8', 'replace')"
+p456
+sI106
+S'    errorclass = error_map.get(errno, InternalError)'
+p457
+sI107
+S'    raise errorclass(errno, errval)'
+p458
+ssg89
+S'(data="\\xffz\\x04#42S02Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist")'
+p459
+sg91
+S'raise_mysql_exception'
+p460
+sasS'pyver'
+p461
+S'Python 2.7.8: /usr/local/opt/python/bin/python2.7 (prefix: /usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7)'
+p462
+sS'session'
+p463
+g63
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp464
+sS'etype'
+p465
+S"<class 'gluon.contrib.pymysql.err.ProgrammingError'>"
+p466
+sS'date'
+p467
+S'Thu Aug 22 09:36:51 2019'
+p468
+sS'response'
+p469
+g63
+(S's\xe6<\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x105e21f10&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_shotsapp</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-1b841498-de13-40c5-8e69-e5a16578b50f<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap4_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/shotsapp/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>My Sites</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>This App</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Design</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/design/shotsapp</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Controller</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/shotsapp/controllers/shots.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>View</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/shotsapp/views/shots/status.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>DB Model</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/shotsapp/models/db.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Menu Model</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/shotsapp/models/menu.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Config.ini</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/shotsapp/private/appconfig.ini</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Layout</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/shotsapp/views/layout.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Stylesheet</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit/shotsapp/static/css/web2py-bootstrap3.css</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Database</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/shotsapp/appadmin/index</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Errors</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/errors/shotsapp</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>About</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/shotsapp</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>web2py.com</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Download</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/download</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Support</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/support</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Demo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/demo_admin</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Quick Examples</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/examples/default/examples</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>FAQ</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/AlterEgo</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Videos</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/videos/</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Free Applications</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/appliances</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/plugins</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2pyslices.com/</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Documentation</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Online book</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Preface</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/00</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Introduction</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/01</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Python</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/02</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Overview</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/03</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>The Core</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/04</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>The Views</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/05</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Database</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/06</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Forms and Validators</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/07</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Email and SMS</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/08</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Access Control</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/09</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Services</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/10</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Ajax Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/11</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Components and Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/12</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Deployment Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/13</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Other Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/14</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Helping web2py</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/15</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Buy web2py\'s book</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://stores.lulu.com/web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Community</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>None</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Groups</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/usergroups</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Twitter</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://twitter.com/web2py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Live Chat</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://webchat.freenode.net/?channels=web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^shots/\\w+\\.py$</div></td></tr><tr><td><div>^shots/status/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_shotsapp</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp/sessions/127.0.0.1-1b841498-de13-40c5-8e69-e5a16578b50f</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>c0762cbf4baf7f9af97c051e7fcb8083</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-1b841498-de13-40c5-8e69-e5a16578b50f</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_shotsapp</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>shotsapp</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">show_toolbar</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>shots/status.html</div></td></tr></table></div>'
+tRp470
+sS'locals'
+p471
+(dp472
+S'errorclass'
+p473
+S"<class 'gluon.contrib.pymysql.err.ProgrammingError'>"
+p474
+sS'errno'
+p475
+S'1146'
+p476
+sS'is_41'
+p477
+S'True'
+p478
+sS'errval'
+p479
+S'u"Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist"'
+p480
+sS'data'
+p481
+S'"\\xffz\\x04#42S02Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist"'
+p482
+sssS'traceback'
+p483
+S'Traceback (most recent call last):\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp/controllers/shots.py", line 80, in <module>\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/globals.py", line 421, in <lambda>\n    self._caller = lambda f: f()\n  File "/Users/Ran/PycharmProjects/untitled/web2py/applications/shotsapp/controllers/shots.py", line 11, in status\n    db.define_table(\'statuses\', Field(\'name\', type="string", unique="True", length=255), Field(\'colorHex\', type="string", unique=\'True\'))\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/base.py", line 592, in define_table\n    table = self.lazy_define_table(tablename, *fields, **kwargs)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/base.py", line 626, in lazy_define_table\n    polymodel=polymodel)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/adapters/base.py", line 798, in create_table\n    return self.migrator.create_table(*args, **kwargs)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/migrator.py", line 318, in create_table\n    fake_migrate=fake_migrate\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/migrator.py", line 451, in migrate_table\n    self.adapter.execute(sub_query)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/adapters/__init__.py", line 67, in wrap\n    return f(*args, **kwargs)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/packages/dal/pydal/adapters/base.py", line 413, in execute\n    rv = self.cursor.execute(command, *args[1:], **kwargs)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/cursors.py", line 166, in execute\n    result = self._query(query)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/cursors.py", line 322, in _query\n    conn.query(q)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py", line 835, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py", line 1019, in _read_query_result\n    result.read()\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py", line 1302, in read\n    first_packet = self.connection._read_packet()\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py", line 981, in _read_packet\n    packet.check_error()\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/connections.py", line 393, in check_error\n    err.raise_mysql_exception(self._data)\n  File "/Users/Ran/PycharmProjects/untitled/web2py/gluon/contrib/pymysql/err.py", line 107, in raise_mysql_exception\n    raise errorclass(errno, errval)\nProgrammingError: (1146, u"Table \'binjo6x0bhaoabnu.statuses\' doesn\'t exist")\n'
+p484
+s.

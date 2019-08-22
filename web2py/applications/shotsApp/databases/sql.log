@@ -1,0 +1,227 @@
+timestamp: 2019-08-19T03:39:49.159224
+CREATE TABLE "auth_user"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "first_name" CHAR(128),
+    "last_name" CHAR(128),
+    "email" CHAR(512),
+    "password" CHAR(512),
+    "registration_key" CHAR(512),
+    "reset_password_key" CHAR(512),
+    "registration_id" CHAR(512)
+);
+success!
+timestamp: 2019-08-19T03:39:49.181272
+CREATE TABLE "auth_group"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "role" CHAR(512),
+    "description" TEXT
+);
+success!
+timestamp: 2019-08-19T03:39:49.192927
+CREATE TABLE "auth_membership"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "group_id" INTEGER REFERENCES "auth_group" ("id") ON DELETE CASCADE  
+);
+success!
+timestamp: 2019-08-19T03:39:49.207071
+CREATE TABLE "auth_permission"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "group_id" INTEGER REFERENCES "auth_group" ("id") ON DELETE CASCADE  ,
+    "name" CHAR(512),
+    "table_name" CHAR(512),
+    "record_id" INTEGER
+);
+success!
+timestamp: 2019-08-19T03:39:49.222913
+CREATE TABLE "auth_event"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "time_stamp" TIMESTAMP,
+    "client_ip" CHAR(512),
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "origin" CHAR(512),
+    "description" TEXT
+);
+success!
+timestamp: 2019-08-19T03:39:49.235243
+CREATE TABLE "auth_cas"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "created_on" TIMESTAMP,
+    "service" CHAR(512),
+    "ticket" CHAR(512),
+    "renew" CHAR(1)
+);
+success!
+timestamp: 2019-08-20T00:11:59.271139
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2019-08-20T00:11:59.487321
+CREATE TABLE `shotsTable`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) NOT NULL UNIQUE,
+    `modified` DATE,
+    `framesNum` INTEGER,
+    `modifier` VARCHAR(512),
+    `status` VARCHAR(512),
+    `statusColor` VARCHAR(512),
+    `active` VARCHAR(512),
+    `description` VARCHAR(512),
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2019-08-20T21:47:17.005446
+ALTER TABLE `shotsTable` ADD `description__tmp` LONGTEXT;
+success!
+UPDATE `shotsTable` SET `description__tmp`=`description`;
+success!
+ALTER TABLE `shotsTable` DROP COLUMN `description`;
+success!
+ALTER TABLE `shotsTable` ADD `description` LONGTEXT;
+success!
+UPDATE `shotsTable` SET `description`=`description__tmp`;
+success!
+ALTER TABLE `shotsTable` DROP COLUMN `description__tmp`;
+success!
+timestamp: 2019-08-20T21:47:36.526440
+ALTER TABLE `shotsTable` ADD `active__tmp` CHAR(1);
+success!
+UPDATE `shotsTable` SET `active__tmp`=`active`;
+success!
+ALTER TABLE `shotsTable` DROP COLUMN `active`;
+success!
+ALTER TABLE `shotsTable` ADD `active` CHAR(1);
+success!
+UPDATE `shotsTable` SET `active`=`active__tmp`;
+success!
+ALTER TABLE `shotsTable` DROP COLUMN `active__tmp`;
+success!
+success!
+timestamp: 2019-08-20T22:37:03.577762
+ALTER TABLE `shotsTable` DROP COLUMN `statusColor`;
+success!
+timestamp: 2019-08-21T00:42:32.397735
+ALTER TABLE `shotsTable` ADD `status__tmp` VARCHAR(512) NOT NULL;
+success!
+UPDATE `shotsTable` SET `status__tmp`=`status`;
+success!
+ALTER TABLE `shotsTable` DROP COLUMN `status`;
+success!
+ALTER TABLE `shotsTable` ADD `status` VARCHAR(512) NOT NULL;
+success!
+UPDATE `shotsTable` SET `status`=`status__tmp`;
+success!
+ALTER TABLE `shotsTable` DROP COLUMN `status__tmp`;
+success!
+success!
+timestamp: 2019-08-22T09:21:55.619233
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:21:57.287769
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:22:44.131413
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:22:45.651652
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:22:47.632058
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:26:37.170144
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:36:50.930822
+ALTER TABLE `statuses` ADD `name__tmp` VARCHAR(255) UNIQUE;
+timestamp: 2019-08-22T09:38:12.623322
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(255) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:39:08.943666
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(255) UNIQUE,
+    `colorHex` VARCHAR(255) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2019-08-22T09:39:09.168424
+CREATE TABLE `shotsTable`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) NOT NULL UNIQUE,
+    `modified` DATE,
+    `framesNum` INTEGER,
+    `modifier` VARCHAR(512),
+    `status` VARCHAR(512) NOT NULL,
+    `active` CHAR(1),
+    `description` LONGTEXT,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:39:41.274014
+CREATE TABLE `shotsTable`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) NOT NULL UNIQUE,
+    `modified` DATE,
+    `framesNum` INTEGER,
+    `modifier` VARCHAR(512),
+    `status` VARCHAR(512) NOT NULL,
+    `active` CHAR(1),
+    `description` LONGTEXT,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2019-08-22T09:39:52.323949
+ALTER TABLE `statuses` ADD `colorhex__tmp` VARCHAR(512) UNIQUE;
+timestamp: 2019-08-22T09:57:26.404700
+CREATE TABLE `statuses`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) UNIQUE,
+    `colorHex` VARCHAR(512) UNIQUE,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2019-08-22T09:57:26.630611
+CREATE TABLE `shotsTable`(
+    `id` INT AUTO_INCREMENT NOT NULL,
+    `name` VARCHAR(512) NOT NULL UNIQUE,
+    `modified` DATE,
+    `framesNum` INTEGER,
+    `modifier` VARCHAR(512),
+    `status` VARCHAR(512) NOT NULL,
+    `active` CHAR(1),
+    `description` LONGTEXT,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
